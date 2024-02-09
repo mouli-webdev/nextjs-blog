@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import Navbar from '../Components/Navbar';
 import "../Components/Navbar.module.css"
-import HomePage from '../Components/HomePage';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <HomePage/>
+        
           
       </main>
 

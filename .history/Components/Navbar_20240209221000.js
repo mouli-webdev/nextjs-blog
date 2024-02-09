@@ -49,8 +49,8 @@ const Navbar = () => {
         </div>
       </nav> */}
       <div className={styles.navbar}>
-        <div className="d-flex justify-content-between">
-        
+        <div className="d-flex justify-content-between"></div>
+        <h1 className="ms-3">
           <img
             class="_7_i_XA"
             crossorigin="anonymous"
@@ -62,8 +62,7 @@ const Navbar = () => {
         
         
 
-        <AccountCircleIcon className={styles.accountIcon}style={{color:"#ffffff"}} />
-        </div>
+        <AccountCircleIcon style={{color:"#ffffff"}} />
       </div>
     </header>
   );

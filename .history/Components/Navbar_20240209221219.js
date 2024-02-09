@@ -62,7 +62,7 @@ const Navbar = () => {
         
         
 
-        <AccountCircleIcon className={styles.accountIcon}style={{color:"#ffffff"}} />
+        <AccountCircleIcon style={{color:"#ffffff",height:}} />
         </div>
       </div>
     </header>

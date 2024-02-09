@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <HomePage/>
+        <HomePage
           
       </main>
 

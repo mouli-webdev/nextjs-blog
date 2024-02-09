@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
       </nav> */}
       <div className={styles.navbar}>
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between"></div>
         
           <img
             class="_7_i_XA"
@@ -62,8 +62,7 @@ const Navbar = () => {
         
         
 
-        <AccountCircleIcon className={styles.accountIcon}style={{color:"#ffffff"}} />
-        </div>
+        <AccountCircleIcon style={{color:"#ffffff"}} />
       </div>
     </header>
   );
