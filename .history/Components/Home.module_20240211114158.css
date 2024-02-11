@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background-color: #0061df; /* Left section color */
+  height: 1000px;
+  width: 1000px;
+}
+
+.right {
+  flex: 1;
+  background-color: red; /* Right section color */
+  height: 1000px;
+  width: 1000px;
+}
+.rightContent {
+  height: 80vh;
+  width: 57%;
+  background-color: #d4e4fa;
+  margin-left: 25px;
+  border-radius: 15px;
+}
+.card_css {
+  margin-left: 20%;
+  margin-top: 10%;
+  width: ;
+}
+.button_css{
+    border:3px solid #V;
+
+}

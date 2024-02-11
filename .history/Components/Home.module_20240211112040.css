@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    flex: 1;
+    background-color:  #0061df; /* Left section color */
+    height: 1000px;
+    width: 1000px;
+  }
+  
+  .right {
+    flex: 1;
+    background-color: red; /* Right section color */
+    height: 1000px;
+    width: 1000px;
+  }
+  .rightContent{
+    height:80vh;
+    width:57%;
+    background-color:#D4E4FA;
+    margin-left: 25px;
+    border-radius: 15px;
+  
+  }
+  
