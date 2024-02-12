@@ -139,7 +139,7 @@ function HomePage() {
           ></img>
         </div>
       </div>
-      {/* <div className="container">
+      <div>
         <img
           src="https://cdni.iconscout.com/illustration/premium/preview/girl-working-on-computer-5364524-4487826.png?f=webp&h=700"
           class="Dt3KRw ms-4 rounded mx-auto d-block mt-5"
@@ -152,21 +152,7 @@ function HomePage() {
           <h2>Why Choose Deal Acres?</h2>
           <p>Additional text can go here...</p>
         </div>
-      </div> */}
-      <div className="container">
-      <img
-          src="https://cdni.iconscout.com/illustration/premium/preview/girl-working-on-computer-5364524-4487826.png?f=webp&h=700"
-          class="Dt3KRw ms-4 rounded mx-auto d-block mt-5 image"
-          width="1250"
-          height="600"
-          alt="Real Estate Video Tour Abstract Concept Vector Illustration."
-          draggable="false"
-        ></img>
-      <div className="text-overlay">
-        <h2>Your Text Here</h2>
-        <p>Additional text can go here...</p>
       </div>
-    </div>
     </div>
   );
 }

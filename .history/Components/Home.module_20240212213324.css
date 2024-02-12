@@ -50,10 +50,10 @@
 
 
 .text-overlay {
-  position: absolute !important;
-  top: 20% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  text-align: center !important;
-  
+  position: absolute;
+  top: 20% ;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
 }

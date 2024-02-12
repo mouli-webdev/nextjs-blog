@@ -3,7 +3,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import styles from "./Home.module.css";
 import Form from "react-bootstrap/Form";
-import AccountImage from "../assets/account.png";
 function HomePage() {
   return (
     <div class="container">
@@ -49,10 +48,7 @@ function HomePage() {
                 <Form.Group className="mb-3" controlId="formBasicPhone">
                   <Form.Control type="text" placeholder="Phone Number" />
                 </Form.Group>
-                <p className="fs-6">
-                  {" "}
-                  Are you a Registered User? <a href="">Login</a>
-                </p>
+                <p className="fs-6"> Are you a Registered User?</p>
 
                 <Button
                   className={`${styles.submit_button_css} px-2 me-2 mt-2 `}
@@ -96,77 +92,11 @@ function HomePage() {
                   alt="Real Estate Video Tour Abstract Concept Vector Illustration."
                   draggable="false"
                 ></img>
-                <div class="container">
-                  <div className={styles.container}></div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="text-center fw-bold fs-2">
-        <label>STEP BY STEP GUIDE FOR FREE PROPERTY LISTING </label>
-      </div>
-      <div className="row">
-        <div className="col-md-4">
-          <img
-            src="https://cdni.iconscout.com/illustration/premium/preview/girl-working-on-computer-5364524-4487826.png?f=webp&h=700"
-            class="Dt3KRw ms-4 rounded mx-auto d-block mt-5"
-            width="230"
-            height="200"
-            alt="Real Estate Video Tour Abstract Concept Vector Illustration."
-            draggable="false"
-          ></img>
-        </div>
-        <div className="col-md-4">
-          <img
-            src="https://cdni.iconscout.com/illustration/premium/preview/girl-working-on-computer-5364524-4487826.png?f=webp&h=700"
-            class="Dt3KRw ms-4 rounded mx-auto d-block mt-5"
-            width="230"
-            height="200"
-            alt="Real Estate Video Tour Abstract Concept Vector Illustration."
-            draggable="false"
-          ></img>
-        </div>
-        <div className="col-md-4">
-          <img
-            src="https://cdni.iconscout.com/illustration/premium/preview/girl-working-on-computer-5364524-4487826.png?f=webp&h=700"
-            class="Dt3KRw ms-4 rounded mx-auto d-block mt-5"
-            width="230"
-            height="200"
-            alt="Real Estate Video Tour Abstract Concept Vector Illustration."
-            draggable="false"
-          ></img>
-        </div>
-      </div>
-      {/* <div className="container">
-        <img
-          src="https://cdni.iconscout.com/illustration/premium/preview/girl-working-on-computer-5364524-4487826.png?f=webp&h=700"
-          class="Dt3KRw ms-4 rounded mx-auto d-block mt-5"
-          width="1250"
-          height="600"
-          alt="Real Estate Video Tour Abstract Concept Vector Illustration."
-          draggable="false"
-        ></img>
-        <div className="text-overlay">
-          <h2>Why Choose Deal Acres?</h2>
-          <p>Additional text can go here...</p>
-        </div>
-      </div> */}
-      <div className="container">
-      <img
-          src="https://cdni.iconscout.com/illustration/premium/preview/girl-working-on-computer-5364524-4487826.png?f=webp&h=700"
-          class="Dt3KRw ms-4 rounded mx-auto d-block mt-5 image"
-          width="1250"
-          height="600"
-          alt="Real Estate Video Tour Abstract Concept Vector Illustration."
-          draggable="false"
-        ></img>
-      <div className="text-overlay">
-        <h2>Your Text Here</h2>
-        <p>Additional text can go here...</p>
-      </div>
-    </div>
     </div>
   );
 }
